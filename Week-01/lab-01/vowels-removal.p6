@@ -1,7 +1,7 @@
 
 #| get non vowels using .comb and regex 
 sub vowels_non ($string is copy) {
-    $string = $string.comb(/<-[a e i o u]>+/).join;
+    $string = $string.comb(/<-[a e i o u]>/).join;
     $string;
 }
 
