@@ -7,4 +7,7 @@ def locate_loop(string,chr):
             indexes.append(i)
     return indexes
 
-print(locate_loop("Hello Thereo","o"))
+string = input(" Input your string : ")
+char =  input( " Input char to look for : ")
+indexes = locate_loop(string,char)
+print(" Found {} at {}".format(char,indexes))

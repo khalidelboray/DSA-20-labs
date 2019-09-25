@@ -12,7 +12,11 @@ sub locate_chr {
     }
     @indexs;
 }
+print " Input String : ";
+chomp(my $str = <>);
+print " Input Char to look for : ";
+chomp(my $chr = <>);
 
-my @pos = locate_chr("Hey There",'e');
+my @pos = locate_chr($str,$chr);
 
 print "Found ". scalar @pos . " at indexes " , join ', ' , @pos;
