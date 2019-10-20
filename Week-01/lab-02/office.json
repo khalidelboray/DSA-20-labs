@@ -1,0 +1,66 @@
+{
+    "Main Office": {
+        "employees": [
+            {
+                "name": "Empl1",
+                "mood": "lazy",
+                "healthRate": 80,
+                "money": 2000,
+                "id": 1,
+                "email": "email1@mail.com",
+                "salary": 2490,
+                "distanceToWork": 2000,
+                "car": {
+                    "name": "Car 1",
+                    "fuelRate": 80,
+                    "velocity": 100
+                }
+            },
+            {
+                "name": "Empl2",
+                "mood": "lazy",
+                "healthRate": 80,
+                "money": 2000,
+                "id": 2,
+                "email": "email2@mail.com",
+                "salary": 2490,
+                "distanceToWork": 2000,
+                "car": {
+                    "name": "Car 2",
+                    "fuelRate": 80,
+                    "velocity": 100
+                }
+            },
+            {
+                "name": "Empl3",
+                "mood": "lazy",
+                "healthRate": 80,
+                "money": 2000,
+                "id": 3,
+                "email": "email3@mail.com",
+                "salary": 2490,
+                "distanceToWork": 2000,
+                "car": {
+                    "name": "Car 3",
+                    "fuelRate": 80,
+                    "velocity": 100
+                }
+            },
+            {
+                "name": "Empl4",
+                "mood": "lazy",
+                "healthRate": 80,
+                "money": 2000,
+                "id": 4,
+                "email": "email4@mail.com",
+                "salary": 2490,
+                "distanceToWork": 2000,
+                "car": {
+                    "name": "Car 4",
+                    "fuelRate": 80,
+                    "velocity": 100
+                }
+            }
+        ]
+    }
+}
